@@ -42,6 +42,9 @@
       ],
       "@ab-ng-nx-project/root": [
         "libs/root/src/index.ts"
+      ],
+      "@ab-ng-nx-project/router-state": [
+        "libs/router-state/src/index.ts"
       ]
     }
   },

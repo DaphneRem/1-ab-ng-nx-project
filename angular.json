@@ -340,6 +340,34 @@
           }
         }
       }
+    },
+    "router-state": {
+      "root": "libs/router-state",
+      "sourceRoot": "libs/router-state/src",
+      "projectType": "library",
+      "prefix": "ab-ng-nx-project",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/router-state/src/test.ts",
+            "tsConfig": "libs/router-state/tsconfig.spec.json",
+            "karmaConfig": "libs/router-state/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/router-state/tsconfig.lib.json",
+              "libs/router-state/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "cli": {

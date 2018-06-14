@@ -30,6 +30,9 @@
     },
     "root": {
       "tags": []
+    },
+    "router-state": {
+      "tags": []
     }
   }
 }
