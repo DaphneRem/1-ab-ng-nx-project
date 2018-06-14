@@ -39,6 +39,9 @@
     },
     "sub-header": {
       "tags": []
+    },
+    "trace-segment": {
+      "tags": []
     }
   }
 }
