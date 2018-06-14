@@ -36,6 +36,9 @@
     },
     "scroll-to-top": {
       "tags": []
+    },
+    "sub-header": {
+      "tags": []
     }
   }
 }

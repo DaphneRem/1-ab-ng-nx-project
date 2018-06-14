@@ -396,6 +396,34 @@
           }
         }
       }
+    },
+    "sub-header": {
+      "root": "libs/sub-header",
+      "sourceRoot": "libs/sub-header/src",
+      "projectType": "library",
+      "prefix": "ab-ng-nx-project",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/sub-header/src/test.ts",
+            "tsConfig": "libs/sub-header/tsconfig.spec.json",
+            "karmaConfig": "libs/sub-header/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/sub-header/tsconfig.lib.json",
+              "libs/sub-header/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "cli": {
