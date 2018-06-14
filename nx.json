@@ -33,6 +33,9 @@
     },
     "router-state": {
       "tags": []
+    },
+    "scroll-to-top": {
+      "tags": []
     }
   }
 }
