@@ -36,6 +36,9 @@
       ],
       "@ab-ng-nx-project/playlists": [
         "libs/playlists/src/index.ts"
+      ],
+      "@ab-ng-nx-project/pub": [
+        "libs/pub/src/index.ts"
       ]
     }
   },
