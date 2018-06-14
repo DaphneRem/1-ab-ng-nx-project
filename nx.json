@@ -9,6 +9,9 @@
     },
     "error-pages": {
       "tags": []
+    },
+    "custom-datatables": {
+      "tags": []
     }
   }
 }

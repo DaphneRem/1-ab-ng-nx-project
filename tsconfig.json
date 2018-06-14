@@ -21,6 +21,9 @@
       ],
       "@ab-ng-nx-project/error-pages": [
         "libs/error-pages/src/index.ts"
+      ],
+      "@ab-ng-nx-project/custom-datatables": [
+        "libs/custom-datatables/src/index.ts"
       ]
     }
   },
