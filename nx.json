@@ -15,6 +15,9 @@
     },
     "ingests": {
       "tags": []
+    },
+    "loaders": {
+      "tags": []
     }
   }
 }

@@ -27,6 +27,9 @@
       ],
       "@ab-ng-nx-project/ingests": [
         "libs/ingests/src/index.ts"
+      ],
+      "@ab-ng-nx-project/loaders": [
+        "libs/loaders/src/index.ts"
       ]
     }
   },
