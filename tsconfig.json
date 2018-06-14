@@ -16,46 +16,46 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@ab-ng-nx-project/*": [
+      "@ab/*": [
         "libs/*"
       ],
-      "@ab-ng-nx-project/error-pages": [
+      "@ab/error-pages": [
         "libs/error-pages/src/index.ts"
       ],
-      "@ab-ng-nx-project/custom-datatables": [
+      "@ab/custom-datatables": [
         "libs/custom-datatables/src/index.ts"
       ],
-      "@ab-ng-nx-project/ingests": [
+      "@ab/ingests": [
         "libs/ingests/src/index.ts"
       ],
-      "@ab-ng-nx-project/loaders": [
+      "@ab/loaders": [
         "libs/loaders/src/index.ts"
       ],
-      "@ab-ng-nx-project/notifications": [
+      "@ab/notifications": [
         "libs/notifications/src/index.ts"
       ],
-      "@ab-ng-nx-project/playlists": [
+      "@ab/playlists": [
         "libs/playlists/src/index.ts"
       ],
-      "@ab-ng-nx-project/pub": [
+      "@ab/pub": [
         "libs/pub/src/index.ts"
       ],
-      "@ab-ng-nx-project/root": [
+      "@ab/root": [
         "libs/root/src/index.ts"
       ],
-      "@ab-ng-nx-project/router-state": [
+      "@at/router-state": [
         "libs/router-state/src/index.ts"
       ],
-      "@ab-ng-nx-project/scroll-to-top": [
+      "@ab/scroll-to-top": [
         "libs/scroll-to-top/src/index.ts"
       ],
-      "@ab-ng-nx-project/sub-header": [
+      "@ab/sub-header": [
         "libs/sub-header/src/index.ts"
       ],
-      "@ab-ng-nx-project/trace-segment": [
+      "@ab/trace-segment": [
         "libs/trace-segment/src/index.ts"
       ],
-      "@ab-ng-nx-project/widgets": [
+      "@ab/widgets": [
         "libs/widgets/src/index.ts"
       ]
     }
