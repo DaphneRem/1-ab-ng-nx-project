@@ -1,5 +1,11 @@
 {
   "npmScope": "ab-ng-nx-project",
   "projects": {
+    "suivi-ingests": {
+      "tags": []
+    },
+    "suivi-ingests-e2e": {
+      "tags": []
+    }
   }
 }
