@@ -21,6 +21,9 @@
     },
     "notifications": {
       "tags": []
+    },
+    "playlists": {
+      "tags": []
     }
   }
 }

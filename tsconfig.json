@@ -33,6 +33,9 @@
       ],
       "@ab-ng-nx-project/notifications": [
         "libs/notifications/src/index.ts"
+      ],
+      "@ab-ng-nx-project/playlists": [
+        "libs/playlists/src/index.ts"
       ]
     }
   },
