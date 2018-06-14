@@ -6,6 +6,9 @@
     },
     "suivi-ingests-e2e": {
       "tags": []
+    },
+    "error-pages": {
+      "tags": []
     }
   }
 }

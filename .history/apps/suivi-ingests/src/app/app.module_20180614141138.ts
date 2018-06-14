@@ -1,11 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { EffectsModule } from '@ngrx/effects';
 import { HttpClientModule } from '@angular/common/http';
-import { NgModule, LOCALE_ID, } from '@angular/core';
+import { NgModule, LOCALE_ID } from '@angular/core';
 import { NxModule } from '@nrwl/nx';
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
-
 
 import { registerLocaleData } from '@angular/common';
 import localeFr from '@angular/common/locales/fr';
@@ -54,7 +53,7 @@ registerLocaleData(localeFr, 'fr');
     }),
     StoreDevtoolsModule.instrument({
       maxAge: 25 // Retains last 25 states
-    }),
+    })
     // SubHeaderModule,
     // TraceSegmentModule,
     // WidgetsModule

@@ -1,11 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { EffectsModule } from '@ngrx/effects';
 import { HttpClientModule } from '@angular/common/http';
-import { NgModule, LOCALE_ID, } from '@angular/core';
+import { NgModule, LOCALE_ID } from '@angular/core';
 import { NxModule } from '@nrwl/nx';
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
-
 
 import { registerLocaleData } from '@angular/common';
 import localeFr from '@angular/common/locales/fr';
@@ -38,26 +37,26 @@ registerLocaleData(localeFr, 'fr');
   imports: [
     AppRoutingModule,
     BrowserModule,
-    // CustomDatatablesModule,
+    CustomDatatablesModule,
     EffectsModule.forRoot([]),
-    // ErrorPagesModule,
+    ErrorPagesModule,
     HttpClientModule,
-    // IngestsModule,
+    IngestsModule,
     NxModule.forRoot(),
-    // PlaylistsModule,
-    // PubModule,
-    // RootModule,
-    // RouterStateModule.forRoot(),
+    PlaylistsModule,
+    PubModule,
+    RootModule,
+    RouterStateModule.forRoot(),
     StoreModule.forRoot({
-      // navbar: navbarReducer,
-      // lastSearch: lastSearchReducer
+      navbar: navbarReducer,
+      lastSearch: lastSearchReducer
     }),
     StoreDevtoolsModule.instrument({
       maxAge: 25 // Retains last 25 states
     }),
-    // SubHeaderModule,
-    // TraceSegmentModule,
-    // WidgetsModule
+    SubHeaderModule,
+    TraceSegmentModule,
+    WidgetsModule
   ],
   providers: [{ provide: LOCALE_ID, useValue: 'fr' }],
   bootstrap: [AppComponent]

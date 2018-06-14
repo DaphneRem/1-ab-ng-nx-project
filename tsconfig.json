@@ -18,6 +18,9 @@
     "paths": {
       "@ab-ng-nx-project/*": [
         "libs/*"
+      ],
+      "@ab-ng-nx-project/error-pages": [
+        "libs/error-pages/src/index.ts"
       ]
     }
   },
