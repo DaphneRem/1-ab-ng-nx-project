@@ -54,6 +54,9 @@
       ],
       "@ab-ng-nx-project/trace-segment": [
         "libs/trace-segment/src/index.ts"
+      ],
+      "@ab-ng-nx-project/widgets": [
+        "libs/widgets/src/index.ts"
       ]
     }
   },

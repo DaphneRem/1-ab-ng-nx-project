@@ -42,6 +42,9 @@
     },
     "trace-segment": {
       "tags": []
+    },
+    "widgets": {
+      "tags": []
     }
   }
 }
