@@ -30,6 +30,9 @@
       ],
       "@ab-ng-nx-project/loaders": [
         "libs/loaders/src/index.ts"
+      ],
+      "@ab-ng-nx-project/notifications": [
+        "libs/notifications/src/index.ts"
       ]
     }
   },

@@ -18,6 +18,9 @@
     },
     "loaders": {
       "tags": []
+    },
+    "notifications": {
+      "tags": []
     }
   }
 }
