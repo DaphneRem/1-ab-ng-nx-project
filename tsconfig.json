@@ -39,6 +39,9 @@
       ],
       "@ab-ng-nx-project/pub": [
         "libs/pub/src/index.ts"
+      ],
+      "@ab-ng-nx-project/root": [
+        "libs/root/src/index.ts"
       ]
     }
   },
