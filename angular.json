@@ -172,6 +172,34 @@
           }
         }
       }
+    },
+    "ingests": {
+      "root": "libs/ingests",
+      "sourceRoot": "libs/ingests/src",
+      "projectType": "library",
+      "prefix": "ab-ng-nx-project",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/ingests/src/test.ts",
+            "tsConfig": "libs/ingests/tsconfig.spec.json",
+            "karmaConfig": "libs/ingests/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/ingests/tsconfig.lib.json",
+              "libs/ingests/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "cli": {

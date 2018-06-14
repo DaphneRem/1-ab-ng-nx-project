@@ -24,6 +24,9 @@
       ],
       "@ab-ng-nx-project/custom-datatables": [
         "libs/custom-datatables/src/index.ts"
+      ],
+      "@ab-ng-nx-project/ingests": [
+        "libs/ingests/src/index.ts"
       ]
     }
   },

@@ -12,6 +12,9 @@
     },
     "custom-datatables": {
       "tags": []
+    },
+    "ingests": {
+      "tags": []
     }
   }
 }
